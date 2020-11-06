@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+
+body{
+    margin: 0;
+    background-image: url("template2.jpg");
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+}
+
+*{
+    font-family: 'Noto Serif TC', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.books{
+    width: 120px;
+}
+
+.navbar{
+    display: flex;
+    font-size: 30px;
+    width: 400px;
+    justify-content: space-around;
+}
+.main{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1{
+    color: red;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width:400px;
+}
+
+.img{
+    margin: 10px;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img1{
+    height: 40vw;
+}
